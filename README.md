@@ -8,7 +8,8 @@ Made this repo because couldn't find a good tutorial for Google Speech-To-Text A
 ## Getting Started
 - Service account from Google Cloud Platform project and getting API KEY is required.  
 - Download API key file for further credential confirmation.  
-- 'sample_rate_hertz' in RecognitionConfig must match the sampling rate of the audio file. You can check it by following code.
+- 'sample_rate_hertz' in RecognitionConfig must match the sampling rate of the audio file.
+You can check it by following code.
 ```
 $ ffprobe commercial_mono.wav
 [...]
